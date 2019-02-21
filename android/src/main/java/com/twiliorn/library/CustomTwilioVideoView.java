@@ -359,10 +359,6 @@ public class CustomTwilioVideoView extends View implements LifecycleEventListene
             localAudioTrack.release();
             localAudioTrack = null;
         }
-        if (localVideoTrack != null) {
-            localVideoTrack.release();
-            localVideoTrack = null;
-        }
         setAudioFocus(false);
     }
 
